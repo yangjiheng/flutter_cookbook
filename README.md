@@ -18,7 +18,7 @@ Design
 * [Add a Drawer to a screen](https://flutter.dev/docs/cookbook/design/drawer.html), implemented in [homepage.dart](./lib/pages/homepage.dart)
 * [Displaying SnackBars](https://flutter.dev/docs/cookbook/design/snackbars.html), implemented in [snackbarpage.dart](./lib/pages/snackbarpage.dart)
 * [Exporting fonts from a package](https://flutter.dev/docs/cookbook/design/package-fonts.html), implemented in [fontspage.dart](./lib/pages/fontspage.dart)
-* [Updating the UI based on orientation](https://flutter.dev/docs/cookbook/design/orientation.html), TODO
+* [Updating the UI based on orientation](https://flutter.dev/docs/cookbook/design/orientation.html), implemented in [orientationpage.dart](./lib/pages/orientationpage.dart)
 * [Using Themes to share colors and font styles](https://flutter.dev/docs/cookbook/design/themes.html), TODO
 * [Using custom fonts](https://flutter.dev/docs/cookbook/design/fonts.html), TODO
 * [Working with Tabs](https://flutter.dev/docs/cookbook/design/tabs.html), TODO
