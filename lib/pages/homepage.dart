@@ -7,6 +7,7 @@ import "./widgetfadepage.dart";
 import "./snackbarpage.dart";
 import "./fontspage.dart";
 import "./orientationpage.dart";
+import "./themepage.dart";
 import "package:shared_preferences/shared_preferences.dart";
 
 class HomePage extends StatefulWidget {
@@ -86,6 +87,12 @@ class HomePageState extends State<HomePage> {
               title: Text("Orientation demo"),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => OrientationPage()));
+              },
+            ),
+            ListTile(
+              title: Text("Theme Font demo"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => ThemePage()));
               },
             )
           ]
