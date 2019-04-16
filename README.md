@@ -20,7 +20,7 @@ Design
 * [Exporting fonts from a package](https://flutter.dev/docs/cookbook/design/package-fonts.html), implemented in [fontspage.dart](./lib/pages/fontspage.dart)
 * [Updating the UI based on orientation](https://flutter.dev/docs/cookbook/design/orientation.html), implemented in [orientationpage.dart](./lib/pages/orientationpage.dart)
 * [Using Themes to share colors and font styles](https://flutter.dev/docs/cookbook/design/themes.html), implemented in [themepage.dart](./lib/pages/themepage.dart)
-* [Using custom fonts](https://flutter.dev/docs/cookbook/design/fonts.html), TODO
+* [Using custom fonts](https://flutter.dev/docs/cookbook/design/fonts.html), implemented in [customfontpage.dart](./lib/custompage.dart)
 * [Working with Tabs](https://flutter.dev/docs/cookbook/design/tabs.html), TODO
 
 Forms

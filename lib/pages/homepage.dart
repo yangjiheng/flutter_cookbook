@@ -8,6 +8,7 @@ import "./snackbarpage.dart";
 import "./fontspage.dart";
 import "./orientationpage.dart";
 import "./themepage.dart";
+import "./customfontpage.dart";
 import "package:shared_preferences/shared_preferences.dart";
 
 class HomePage extends StatefulWidget {
@@ -93,6 +94,12 @@ class HomePageState extends State<HomePage> {
               title: Text("Theme Font demo"),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => ThemePage()));
+              },
+            ),
+            ListTile(
+              title: Text("Custom font demo"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder:  (context) => CustomFontPage()));
               },
             )
           ]
