@@ -9,6 +9,7 @@ import "./fontspage.dart";
 import "./orientationpage.dart";
 import "./themepage.dart";
 import "./customfontpage.dart";
+import "./tabbarpage.dart";
 import "package:shared_preferences/shared_preferences.dart";
 
 class HomePage extends StatefulWidget {
@@ -100,6 +101,12 @@ class HomePageState extends State<HomePage> {
               title: Text("Custom font demo"),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder:  (context) => CustomFontPage()));
+              },
+            ),
+            ListTile(
+              title: Text("Tab bar demo"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder:  (context) => TabBarDemo()));
               },
             )
           ]

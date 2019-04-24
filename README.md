@@ -21,7 +21,7 @@ Design
 * [Updating the UI based on orientation](https://flutter.dev/docs/cookbook/design/orientation.html), implemented in [orientationpage.dart](./lib/pages/orientationpage.dart)
 * [Using Themes to share colors and font styles](https://flutter.dev/docs/cookbook/design/themes.html), implemented in [themepage.dart](./lib/pages/themepage.dart)
 * [Using custom fonts](https://flutter.dev/docs/cookbook/design/fonts.html), implemented in [customfontpage.dart](./lib/pages/customfontpage.dart)
-* [Working with Tabs](https://flutter.dev/docs/cookbook/design/tabs.html), TODO
+* [Working with Tabs](https://flutter.dev/docs/cookbook/design/tabs.html), implemented in [tabbarpage.dart](./lib/pages/tabbarpage.dart)
 
 Forms
 * [Building a form with validation](https://flutter.dev/docs/cookbook/forms/validation.html), TODO
